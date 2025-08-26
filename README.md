@@ -1,6 +1,6 @@
 **Tech Layoffs 2022–2023: Data Cleaning and EDA with SQL**
 
-This project involves data cleaning and exploratory data analysis (EDA) on global tech layoffs using SQL. The goal is to prepare raw data for meaningful analysis and uncover trends in layoffs across industries, companies, and time.
+This project involves data cleaning and exploratory data analysis (EDA) on global tech layoffs using SQL. The goal is to prepare raw data for meaningful analysis and identify trends in layoffs across various industries, companies, and time periods.
 **Dataset**
 
     Source: Kaggle - Layoffs 2022
@@ -24,7 +24,7 @@ To prepare the dataset for EDA, the following cleaning steps were performed in S
 
         Replaced blank entries with NULL.
 
-        Imputed missing industry values using self-joins on company.
+        Imputed missing industry values using self-joins on the company.
 
     4. Date Formatting
 
@@ -36,7 +36,7 @@ To prepare the dataset for EDA, the following cleaning steps were performed in S
 
 **Key Insights from EDA**
     Largest Layoffs by Company
-    Amazon had the highest total layoffs over the period, followed by companies like Meta and Google.
+    Amazon had the highest total number of layoffs over the period, followed by companies such as Meta and Google.
 
     High-Impact Layoffs (100%)
     Several startups, such as Quibi and BritishVolt, laid off 100% of their workforce, indicating shutdowns.
@@ -52,7 +52,7 @@ To prepare the dataset for EDA, the following cleaning steps were performed in S
 
 
 **Tools & Skills Used**
-    SQL (MySQL syntax)
+    SQL (MySQL)
 
     CTEs, Window Functions, Aggregations, Joins
 
